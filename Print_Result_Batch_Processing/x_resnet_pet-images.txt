@@ -1,0 +1,55 @@
+Command Line Arguments:
+     dir = pet_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 40 key-value pairs.
+Below are 10 of them:
+ 1 key:              Basenji_00963.jpg  label:                    basenji
+ 2 key:              Basenji_00974.jpg  label:                    basenji
+ 3 key:         Basset_hound_01034.jpg  label:               basset hound
+ 4 key:               Beagle_01125.jpg  label:                     beagle
+ 5 key:               Beagle_01141.jpg  label:                     beagle
+ 6 key:               Beagle_01170.jpg  label:                     beagle
+ 7 key:       Boston_terrier_02259.jpg  label:             boston terrier
+ 8 key:       Boston_terrier_02285.jpg  label:             boston terrier
+ 9 key:       Boston_terrier_02303.jpg  label:             boston terrier
+10 key:                Boxer_02426.jpg  label:                      boxer
+
+ ** Statistics from calculates_results_stats() function:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog:  56.7 Pct Corr NOTdog: 100.0  Pct Corr Breed:  56.7
+
+ ** Check Statistics - calculated from this function as a check:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog:  56.7 Pct Corr NOTdog: 100.0  Pct Corr Breed:  53.3
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+
+
+***Results summary statistics (percentages)*** 
+pct_match 57.49999999999999
+pct_correct_dogs 56.666666666666664
+pct_correct_breed 56.666666666666664
+pct_correct_notdogs 100.0
+
+INCORRECT Dog/NOT Dog Assignments:
+Pet Image Label:                     beagle   Classifier:  Walker hound, Walker foxhound
+Pet Image Label:             boston terrier   Classifier:    Boston bull, Boston terrier
+Pet Image Label:             boston terrier   Classifier:    Boston bull, Boston terrier
+Pet Image Label:             boston terrier   Classifier:    Boston bull, Boston terrier
+Pet Image Label:             cocker spaniel   Classifier: cocker spaniel, English cocker spaniel, cocker
+Pet Image Label:        german shepherd dog   Classifier: German shepherd, German shepherd dog, German police dog, alsatian
+Pet Image Label:        german shepherd dog   Classifier: German shepherd, German shepherd dog, German police dog, alsatian
+Pet Image Label: german shorthaired pointer   Classifier:     German shorthaired pointer
+Pet Image Label:           golden retriever   Classifier:                       Leonberg
+Pet Image Label:                 great dane   Classifier:                     Great Dane
+Pet Image Label:             great pyrenees   Classifier:                 Great Pyrenees
+Pet Image Label:              saint bernard   Classifier:      Saint Bernard, St Bernard
+Pet Image Label:              saint bernard   Classifier:      Saint Bernard, St Bernard
+
+** Total Elapsed Runtime: 0:0:34
