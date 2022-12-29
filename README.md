@@ -22,5 +22,5 @@ TODO
 
 
 ## License
-![MIT](https://img.shields.io/github/license/perrigoh/classify_dog_pytorch)  
+![license](https://img.shields.io/github/license/perrigoh/classify_dog_pytorch)  
 MIT License
